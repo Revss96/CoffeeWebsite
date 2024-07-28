@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revs Cafe</title>
+    <link rel="icon" href="images/cof-removebg-preview.png">
+    <link rel="stylesheet" href="coffee.css">
+
+       <!-- font awesome icons -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+       integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+       crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <div class="whole">
+        <nav class="nav">
+            <h1>Coffee ☕</h1>
+             <ul>
+                <li class="cof"><a href="home.html">Home</a></li>
+                <li class="cof"><a href="about.html">About</a></li>
+                <li class="cof"><a href="service.html">Services</a></li>
+                <li class="cof"><a href="whyus.html">Why Us</a></li>
+                <li class="cof"><a href="gallery.html">Gallery</a></li>
+                <li class="cof"><a href="contact.html">Contact</a></li>
+             </ul>
+
+             <div class="toggle-menu-bar" onclick="shownavbar()">
+                <i class="fa-solid fa-house"></i>
+            </div>
+        </nav>
+ 
+         <!--side nav bar-->
+    <div class="side-navbar">
+        <p style="text-align: right; font-size: larger;" onclick="closenavbar()"> <!-- style the X mark inside html-->
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link1"> <a href="home.html">Home</a> </p>
+            <p class="side-navbar-link1"> <a href="about.html">About</a> </p>
+            <p class="side-navbar-link1"> <a href="whyus.html">Why us</a> </p>
+            <p class="side-navbar-link1"> <a href="service.html">Service</a> </p>
+            <p class="side-navbar-link1"> <a href="gallery.html">Gallery</a> </p>
+            <p class="side-navbar-link1"> <a href="contact.html">Contact</a> </p>
+        </div>
+    </div>
+
+        <div class="service-container">
+            <div class="serv1">
+                <img src="images/serv1.png" alt="" height="250px" width="200px">
+                <h1>Hot Beverages</h1>
+                <h3>Wide range of Steaming hot coffees to make you fresh and light.</h3>
+            </div>
+
+            <div class="serv2">
+                <img src="images/serv2.png" alt="">
+                <h1>Cold Beverages</h1>
+                <h3>Creamy and frothy cold coffee to make you feel cool from inside.</h3>
+            </div>
+
+            <div class="serv3">
+                <img src="images/serv3.png" alt="" height="300px" width="350px">
+                <h1>Refreshment</h1>
+                <h3>Fruit and icy refreshing drink to make you feel good.</h3>
+            </div>
+
+            <div class="serv4">
+                <img src="images/serv4.png" alt="">
+                <h1>Special Combos</h1>
+                <h3>How it's really easy to chose your favourite eating and drinking combinations.</h3>
+            </div>
+
+            <div class="serv5">
+                <img src="images/serv5.png" alt="" height="220px" width="350px">
+                 <h1>Burger and Fries</h1>  
+                 <h3>Yummy! Quick bites to satisfy your small size hunger.</h3>        
+            </div>
+
+            <div class="serv6">
+                <img src="images/serv6.png" alt="" height="300px" width="350">
+                <h1>Desserts</h1>
+                <h3>This for sure would your polato and take you an a culnary treat</h3>
+            </div>
+        </div>
+
+        <script src="coffee.js"></script>
+    </body>
+    </html>
